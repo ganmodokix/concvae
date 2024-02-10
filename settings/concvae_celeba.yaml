@@ -1,0 +1,18 @@
+model_name: concvae
+hyperparameters:
+  lr: 1e-3
+  lr_disc: 1e-3
+  z_dim: 10
+  beta: 1
+  gamma: 100
+  vlmodel: clip
+  vocab: vocab-small.txt
+  ablate_adv: true
+dataset: celeba
+logger_path: runs/concvae_celeba
+epochs: 128
+batch_size: 64
+cuda_sync: false
+very_verbose: true
+until_convergence: true
+patience: 10

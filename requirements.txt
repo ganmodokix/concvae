@@ -1,0 +1,2 @@
+vaetc @ git+https://github.com/ganmodokix/vaetc#egg=vaetc
+clip @ git+https://github.com/openai/clip#egg=clip
