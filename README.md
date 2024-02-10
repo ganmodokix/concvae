@@ -14,7 +14,7 @@ We developed and tested this code in the environment below.
     ```bash
     $ sudo apt update
     $ sudo apt upgrade
-    $ sudo apt install python3.9 python3.9-dev python3.9-venv
+    $ sudo apt install python3.9 python3.9-dev python3.9-venv python3-tk
     ```
 2. Create an environment
     ```bash
