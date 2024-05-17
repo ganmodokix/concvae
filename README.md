@@ -4,6 +4,10 @@ This repository contains the official implementation of the ConcVAE models propo
 
 Our ConcVAE models, based on variational autoencoders (VAEs), are designed to learn data representations consisting of variables paired with verbal concepts. Each verbal concept includes a pair of antonyms, which represent the negative and positive directions of the representation variables.
 
+这个代码库包含了我们在论文《ConcVAE: 概念表征学习》（IEEE TNNLS，待刊）中提出的ConcVAE模型的官方实现。
+
+我们的ConcVAE模型基于变分自编码器（VAE）设计，旨在学习由与语言概念配对的变量组成的数据表征。每个语言概念都包含一对反义词，分别表示表征变量的负方向和正方向。
+
 ## BibTeX Citation
 
 Please cite our paper if you use this code.
