@@ -1,6 +1,26 @@
 # ConcVAE: Conceptual Representation Learning
 
-Code for ConcVAE models
+This repository is code for models of ConcVAE, proposed in our paper "ConcVAE: Conceptual Representation Learning" (IEEE TNNLS, in press).
+
+## BibTeX Citation
+
+Please cite our paper if you use this code.
+
+**Once the paper is officially published, this BibTeX citation will be updated.**
+
+```bibtex
+@article{Togo2024,
+    author  = {Togo, Ren and Nakagawa, Nao and Ogawa, Takahiro and Haseyama, Miki},
+    title   = {Conc{VAE}: Conceptual Representation Learning},
+    journal = {{IEEE} Transactions on Neural Networks and Learning Systems},
+    year    = {2024},
+    volume  = {},
+    number  = {},
+    pages   = {in press}
+}
+```
+
+
 
 ## Setup
 We developed and tested this code in the environment below.
