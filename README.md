@@ -1,6 +1,8 @@
 # ConcVAE: Conceptual Representation Learning
 
-This repository is code for models of ConcVAE, proposed in our paper "ConcVAE: Conceptual Representation Learning" (IEEE TNNLS, in press).
+This repository contains the official implementation of the ConcVAE models proposed in our paper "ConcVAE: Conceptual Representation Learning" (IEEE TNNLS, in press).
+
+Our ConcVAE models, based on variational autoencoders (VAEs), are designed to learn data representations consisting of variables paired with verbal concepts. Each verbal concept includes a pair of antonyms, which represent the negative and positive directions of the representation variables.
 
 ## BibTeX Citation
 
@@ -20,10 +22,10 @@ Please cite our paper if you use this code.
 }
 ```
 
-
-
 ## Setup
+
 We developed and tested this code in the environment below.
+
 - Ubuntu 20.04.4
 - NVIDIA GeForce RTX 2080 x1
 - Python 3.9.5 with venv
@@ -31,27 +33,27 @@ We developed and tested this code in the environment below.
 - 32GB of RAM
 
 1. Install python & venv
-    ```bash
-    $ sudo apt update
-    $ sudo apt upgrade
-    $ sudo apt install python3.9 python3.9-dev python3.9-venv python3-tk
-    ```
+   ```bash
+   $ sudo apt update
+   $ sudo apt upgrade
+   $ sudo apt install python3.9 python3.9-dev python3.9-venv python3-tk
+   ```
 2. Create an environment
-    ```bash
-    $ python -m venv .env
-    $ source .env/bin/activate
-    ```
+   ```bash
+   $ python -m venv .env
+   $ source .env/bin/activate
+   ```
 3. Install the dependencies
-    We are using some third-party libraries of PyTorch.
-    ```bash
-    $ pip install -U pip
-    $ pip install wheel
-    $ pip install -r requirements.txt
-    ```
+   We are using some third-party libraries of PyTorch.
+   ```bash
+   $ pip install -U pip
+   $ pip install wheel
+   $ pip install -r requirements.txt
+   ```
 4. Try conceptual representation learning
-    ```bash
-    $ python train.py settings/concvae_celeba.yaml
-    $ python train.py settings/concvae_getchu.yaml
-    $ python train.py settings/concvae_mnist.yaml
-    ```
-    Some datasets requires to be manually downloaded.
+   ```bash
+   $ python train.py settings/concvae_celeba.yaml
+   $ python train.py settings/concvae_getchu.yaml
+   $ python train.py settings/concvae_mnist.yaml
+   ```
+   Some datasets requires to be manually downloaded.
