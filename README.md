@@ -12,7 +12,7 @@ Our ConcVAE models, based on variational autoencoders (VAEs), are designed to le
 
 Please cite our paper if you use this code.
 
-**Once the paper is officially published, this BibTeX citation will be updated.**
+**This BibTeX citation is provisional. I will update this BibTeX citation once the paper is officially published.**
 
 ```bibtex
 @article{Togo2024,
