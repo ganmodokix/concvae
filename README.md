@@ -1,10 +1,10 @@
 # ConcVAE: Conceptual Representation Learning
 
-This repository contains the official implementation of the ConcVAE models proposed in our paper ["ConcVAE: Conceptual Representation Learning" (IEEE TNNLS, Early Access)](https://ieeexplore.ieee.org/document/10584324).
+This repository contains the official implementation of the ConcVAE models proposed in our paper ["ConcVAE: Conceptual Representation Learning" (IEEE TNNLS 36(4))](https://ieeexplore.ieee.org/document/10584324).
 
 Our ConcVAE models, based on variational autoencoders (VAEs), are designed to learn data representations consisting of variables paired with verbal concepts. Each verbal concept includes a pair of antonyms, which represent the negative and positive directions of the representation variables.
 
-这个代码库包含了我们在论文[《ConcVAE: 概念表征学习》（IEEE TNNLS, Early Access）](https://ieeexplore.ieee.org/document/10584324)中提出的ConcVAE模型的官方实现。
+这个代码库包含了我们在论文[《ConcVAE: 概念表征学习》（IEEE TNNLS 36(4)）](https://ieeexplore.ieee.org/document/10584324)中提出的ConcVAE模型的官方实现。
 
 我们的ConcVAE模型基于变分自编码器（VAE）设计，旨在学习由与语言概念配对的变量组成的数据表征。每个语言概念都包含一对反义词，分别表示表征变量的负方向和正方向。
 
@@ -12,17 +12,15 @@ Our ConcVAE models, based on variational autoencoders (VAEs), are designed to le
 
 Please cite our paper if you use this code.
 
-**This BibTeX citation is provisional. I will update this BibTeX citation once the paper is officially published.**
-
 ```bibtex
 @article{Togo2024,
     author   = {Togo, Ren and Nakagawa, Nao and Ogawa, Takahiro and Haseyama, Miki},
     title    = {Conc{VAE}: Conceptual Representation Learning},
     journal  = {{IEEE} Transactions on Neural Networks and Learning Systems},
-    year     = {2024},
-    volume   = {},
-    number   = {},
-    pages    = {1-13},
+    year     = {2025},
+    volume   = {36},
+    number   = {4},
+    pages    = {7529-7541},
     keywords = {Representation learning;Task analysis;Natural languages;Feature extraction;Information science;Data models;Computational modeling;Deep learning;disentanglement;interpretable machine learning;representation learning;vision and language},
     doi      = {10.1109/TNNLS.2024.3404496}
 }
